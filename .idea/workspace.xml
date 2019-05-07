@@ -6,7 +6,622 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45fb607d-febe-45d5-9794-68c39a1bbc0d" name="Default Changelist" comment="" />
+    <list default="true" id="70c86a13-44d4-47fa-9060-7bdd9f3336ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhoubo/sconline/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/applicationContext-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/applicationContext-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/redis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/commons-pool2-2.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/druid-1.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/ehcache-core-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/fastjson-1.2.52.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/jackson-annotations-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/jackson-core-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/jackson-databind-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/jedis-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/logback-ext-spring-0.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/mybatis-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/quartz-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/shiro-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/shiro-ehcache-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/shiro-quartz-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/shiro-spring-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/shiro-web-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/slf4j-api-1.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-context-support-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-data-commons-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-data-keyvalue-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-data-redis-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-jdbc-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-oxm-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-test-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/css/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.babelrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.github/COMMIT_CONVENTION.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/BACKERS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/big-table/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/big-table/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/big-table/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/ENV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/lib/memory-stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/lib/monitor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/dbmon/lib/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/reorder-list/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/ssr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/ssr/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/ssr/renderToStream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/ssr/renderToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/svg/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/benchmarks/uptime/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/commits/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/commits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/commits/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/elastic-header/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/elastic-header/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/firebase/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/firebase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/firebase/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/grid/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/grid/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/markdown/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/modal/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/move-animations/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/select2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/svg/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/svg/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/svg/svg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/todomvc/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/todomvc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/todomvc/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/tree/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/examples/tree/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/global-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/ssr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/vnode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/flow/weex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/build.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/build.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/client-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/server-plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/types/plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-server-renderer/types/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/types/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/vue-template-compiler/types/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-template-compiler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-template-compiler/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-template-compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-template-compiler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-vue-framework/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-vue-framework/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-vue-framework/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/packages/weex-vue-framework/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/feature-flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/gen-release-note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/get-weex-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/git-hooks/commit-msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/git-hooks/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/release-weex.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/scripts/verify-commit-msg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/codeframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/codegen/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/codegen/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/create-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/directives/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/directives/on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/error-detector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/parser/entity-decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/parser/filter-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/parser/html-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/parser/text-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/compiler/to-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/components/keep-alive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/global-api/assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/global-api/extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/global-api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/global-api/mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/global-api/use.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/inject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/lifecycle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/bind-dynamic-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/bind-object-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/bind-object-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/check-keycodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/render-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/render-slot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/render-static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/resolve-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/resolve-scoped-slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render-helpers/resolve-slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/instance/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/dep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/scheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/traverse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/observer/watcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/next-tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/perf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/util/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/create-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/create-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/create-functional-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/extract-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/get-first-component-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/is-async-placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/merge-hook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/normalize-children.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/normalize-scoped-slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/resolve-async-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/helpers/update-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/modules/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/modules/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/core/vdom/vnode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/directives/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/directives/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/modules/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/compiler/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/entry-runtime-with-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/entry-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/entry-server-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/entry-server-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/class-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/runtime/transition-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/web/util/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/append.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/component-root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/v-for.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/v-if.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/v-on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/recycle-list/v-once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/entry-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/entry-runtime-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/components/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/recycle-list/render-component-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/recycle-list/virtual-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/runtime/text-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/platforms/weex/util/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/bundle-renderer/create-bundle-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/bundle-renderer/create-bundle-runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/bundle-renderer/source-map-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/create-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/create-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/optimizing-compiler/codegen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/optimizing-compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/optimizing-compiler/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/optimizing-compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/optimizing-compiler/runtime-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/render-context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/render-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/template-renderer/create-async-file-mapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/template-renderer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/template-renderer/parse-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/template-renderer/template-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/webpack-plugin/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/webpack-plugin/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/webpack-plugin/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/server/write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/sfc/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/shared/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/src/shared/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/nightwatch.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/async-edge-cases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/async-edge-cases.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/basic-ssr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/basic-ssr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/commits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/svg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/todomvc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/e2e/specs/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/classlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/test-object-option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/to-equal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/to-have-been-warned.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/trigger-event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/helpers/wait-for-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/async-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/compile-with-webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/async-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/async-foo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/cache-opt-out.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/nested-cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/promise-rejection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/split.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/fixtures/test.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/ssr-basic-renderer.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/ssr-bundle-render.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/ssr-stream.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/ssr-string.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/ssr/ssr-template.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/component/component-async.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/component/component-keep-alive.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/component/component-scoped-slot.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/component/component-slot.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/component/component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/debug.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/bind.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/class.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/cloak.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/for.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/html.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/if.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-checkbox.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-dynamic.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-file.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-parse.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-radio.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-select.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/model-text.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/on.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/once.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/pre.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/show.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/static-style-parser.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/style.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/directives/text.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/error-handling.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/filter/filter.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/assets.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/compile.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/config.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/extend.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/mixin.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/observable.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/set-delete.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/global-api/use.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/init.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/methods-data.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/methods-events.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/methods-lifecycle.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/properties.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/instance/render-proxy.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/_scopeId.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/comments.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/components.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/computed.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/data.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/delimiters.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/directives.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/el.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/errorCaptured.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/extends.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/functional.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/inheritAttrs.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/inject.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/lifecycle.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/methods.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/mixins.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/name.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/parent.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/props.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/propsData.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/render.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/renderError.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/template.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/options/watch.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/ref.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/transition/inject-styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/transition/transition-group.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/transition/transition-mode.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/features/transition/transition.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/karma.base.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/karma.cover.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/karma.dev.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/karma.sauce.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/karma.unit.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/compiler/codeframe.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/compiler/codegen.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/compiler/compiler-options.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/compiler/optimizer.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/compiler/parser.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/observer/dep.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/observer/observer.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/observer/scheduler.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/observer/watcher.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/server-compiler/compiler-options.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/server-compiler/optimizer.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/sfc/sfc-parser.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/util/error.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/util/next-tick.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/create-component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/create-element.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/attrs.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/class.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/directive.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/dom-props.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/events.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/modules/style.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/patch/children.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/patch/edge-cases.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/patch/element.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/patch/hooks.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/unit/modules/vdom/patch/hydration.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/cases.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/event/click.after.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/event/click.before.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/event/click.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/attrs.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/attrs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/classname.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/classname.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/banner.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/counter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/editor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/lifecycle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/poster.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful-lifecycle.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful-lifecycle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful-v-model.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful-v-model.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateful.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless-multi-components.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless-multi-components.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless-with-props.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless-with-props.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/components/stateless.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/inline-style.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/inline-style.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/text-node.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/text-node.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-else-if.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-else-if.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-else.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-else.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-for-iterator.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-for-iterator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-for.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-for.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-if.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-if.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-on-inline.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-on-inline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-on.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-on.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-once.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/recycle-list/v-once.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/render/class.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/render/class.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/render/sample.vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/cases/render/sample.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/append.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/class.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/compile.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/parser.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/props.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/style.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/compiler/v-model.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/attrs.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/class.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/components/richtext.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/events.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/framework.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/node.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/test/weex/runtime/style.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/augmentation-test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/es-module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/options-test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/plugin-test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/ssr-test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/test/vue-test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/typings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/vnode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/types/vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sconline/js/vue-2.6.10/yarn.lock" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,44 +630,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1709666264">
+    <session id="729314384">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="334" />
-          <entry key="properties" value="17" />
-          <entry key="xml" value="2137" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="334" />
-          <entry key="Properties" value="17" />
-          <entry key="XML" value="2137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="html" value="1" />
+          <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="js" value="3" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="26" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="JavaScript" value="3" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="26" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="139" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="139" />
         </counts>
       </usages-collector>
     </session>
@@ -60,19 +673,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="162">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="330">
+              <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -80,35 +702,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="-621">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="67">
+              <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
+              <folding>
+                <element signature="e#2285#2298#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="81">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -118,25 +739,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml" />
       </list>
     </option>
   </component>
@@ -154,12 +774,6 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/Sever/maven/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="E:\Sever\maven\apache-maven-3.5.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -176,109 +790,99 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sconline" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/package.json" />
-      <path value="$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/packages/vue-server-renderer/package.json" />
-      <path value="$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/packages/vue-template-compiler/package.json" />
-      <path value="$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/packages/weex-template-compiler/package.json" />
-      <path value="$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/packages/weex-vue-framework/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="170" />
-    <option name="width" value="1279" />
-    <option name="height" value="729" />
+    <option name="x" value="50" />
+    <option name="y" value="90" />
+    <option name="width" value="1400" />
+    <option name="height" value="986" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>SetupSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringFacetInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sconline" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sconline" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sconline" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sconline" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sconline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557238723077" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\sconline\src\main\webapp\js" />
-      <recent name="F:\sconline\src\main\webapp\css" />
-      <recent name="F:\sconline\src\main\resources" />
-    </key>
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,7 +897,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="sconline" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="E:\JAVA8\jdk1.8\jre">
+    <configuration name="sconline" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:\javajdk\jdk\jre">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sconline/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -312,7 +916,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63564" />
+        <option name="DEBUG_PORT" value="49977" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -367,74 +971,59 @@
       </method>
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45fb607d-febe-45d5-9794-68c39a1bbc0d" name="Default Changelist" comment="" />
-      <created>1557196433299</created>
+      <changelist id="70c86a13-44d4-47fa-9060-7bdd9f3336ae" name="Default Changelist" comment="" />
+      <created>1557234143893</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557196433299</updated>
+      <updated>1557234143893</updated>
+      <workItem from="1557234146748" duration="4569000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4569000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Web" side_tool="true" />
       <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3207856" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.96399343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.69522774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32985073" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.3207856" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.83306056" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -443,98 +1032,88 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/Repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap-3.3.7-dist/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vue-2.6.10/src/sfc/parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhoubo/sconline/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="5" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sconline.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="2916">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="162">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="675">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="67">
+          <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
+          <folding>
+            <element signature="e#2285#2298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="330">
+          <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -557,7 +1136,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -617,7 +1196,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

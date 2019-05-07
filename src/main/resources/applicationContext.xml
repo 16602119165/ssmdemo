@@ -2,69 +2,89 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xmlns:p="http://www.springframework.org/schema/p" xmlns:jpa="http://www.springframework.org/schema/data/jpa"
-       xmlns:task="http://www.springframework.org/schema/task"
        xsi:schemaLocation="
-       http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/tx
        http://www.springframework.org/schema/tx/spring-tx.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd
-       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+    xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+   ==================================================================>
+    http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+    http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
        http://www.springframework.org/schema/data/jpa
-       http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+       http://www.springframework.org/schema/rabbit
+	   http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd
        http://www.springframework.org/schema/task
-       http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+       http://www.springframework.org/schema/task/spring-task-3.0.xsd
+    -->
 
-    <!--
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-    xmlns:rabbit="http://www.springframework.org/schema/rabbit"
-    http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd-->
 
-    <!--1.扫描注解驱动启动；并排除controller注解。-->
-    <context:component-scan base-package="com.zhoubo.sconline">
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
+    <!-- 配置注解包扫描 -->
+    <context:component-scan base-package="com.*" use-default-filters="true">
+        <context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller" />
     </context:component-scan>
-    <!--2.整合datasourc 并加载类路径下的properties文件-->
-    <context:property-placeholder location="classpath*:db.properties"></context:property-placeholder>
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
-        <property name="username" value="#{jdbc.username}"></property>
-        <property name="password" value="#{jdbc.password}"></property>
-        <property name="url" value="#{jdbc.url}"></property>
-        <property name="driverClassName" value="#{jdbc.driver}"></property>
-        <property name="maxActive" value="10"></property>
-        <property name="minIdle" value="5"></property>
+
+
+    <!-- 加载类路径下的db.properties文件 -->
+    <context:property-placeholder ignore-unresolvable="true" location="classpath:db.properties"/>
+    <!-- 配置druid数据源dataSource -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="maxActive" value="10" />
+        <property name="minIdle" value="5" />
     </bean>
-    <!--3.与mybatis整合sqlSessionFactory -->
+
+    <!-- 与mybatis整合，配置sqlsessionFactoryBean -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <!--配置数据源指向datasource-->
+        <!--数据源指向dataSource  -->
         <property name="dataSource" ref="dataSource"></property>
-        <!--设置扫描mapper文件的位置-->
-        <!--<property name="mapperLocations" value="classpath*:mapper/*.xml"></property>-->
-        <!--设置mybatis配置文件的位置，在配置sql日志输出时有用 类路径下没有找到文件时会报红-->
-        <property name="configLocation" value="classpath*:mybatis-config.xml"></property>
+        <!-- 指定mapper文件的位置 -->
+        <!--<property name="mapperLocations" value="classpath:/mapper/*.xml" />-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
     </bean>
-    <!--4、整合mybatis sqlsession实例，依赖于上面的factory类-->
-    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
-        <constructor-arg index="0"
-                         ref="sqlSessionFactory">
+
+    <!--sqlsession的实例，指向sqlsessionFactory -->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" >
+        <constructor-arg index="0">
+            <ref bean="sqlSessionFactory" />
         </constructor-arg>
     </bean>
-    <!--5、开启mapper接口扫描-->
+
+    <!--扫描所有的mapper接口，让这些mapper能够自动注入  -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.*"></property>
-        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <property name="basePackage" value="com.zhoubo.*" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
-    <!--6.开启事务管理器，指向datasource-->
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"></property>
+
+    <!--事务管理器配置 -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
     </bean>
-    <!--7、开启事务注解驱动-->
-   <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"></tx:annotation-driven>
+
+    <!-- 开启注解事务 支队当前文件 -->
+    <tx:annotation-driven transaction-manager="transactionManager"
+                          proxy-target-class="true" /><!-- 配置事务注解驱动，事务注解起作用 -->
+    <tx:annotation-driven />
+
+    <import resource="applicationContext-redis.xml"></import>
+    <import resource="applicationContext-shiro.xml"></import>
+
 
 </beans>

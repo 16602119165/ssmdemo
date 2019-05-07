@@ -9,5 +9,8 @@
         <module name="sconline" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sconline" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
